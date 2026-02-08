@@ -60,9 +60,9 @@ with col_res:
     if arquivo and st.button("Executar Análise"):
         # Ajuste de ROI: Pegando um quadrado central menor para evitar a gordura de cobertura (capa)
         h, w, _ = img.shape
-        # Recorte de 55% a 85% para focar no miolo do músculo
-        r_start, r_end = int(h * 0.55), int(h * 0.85)
-        c_start, c_end = int(w * 0.55), int(w * 0.85)
+        # Recorte de 65% a 95% para focar no miolo do músculo
+        r_start, r_end = int(h * 0.65), int(h * 0.95)
+        c_start, c_end = int(w * 0.65), int(w * 0.95)
         amostragem = img[r_start:r_end, c_start:c_end]
 
         # Processamento
