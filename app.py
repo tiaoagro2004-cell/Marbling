@@ -39,7 +39,7 @@ def processar_marmoreio(imagem_cortada):
     return porcentagem, escore, gordura_intramuscular
 
 # Interface Streamlit
-st.title("🥩 Analisador de Marmoreio Bovino")
+st.title("🥩 Analisador de Marmoreio Suíno Premium CR_Agro")
 st.markdown("---")
 
 col_input, col_res = st.columns([1, 1])
